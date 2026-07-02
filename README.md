@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Haickal Hidayat Albarkah - Personal Portfolio
 
-## Getting Started
+Personal portfolio website for **Haickal Hidayat Albarkah**, built to showcase professional experience, skills, contact information, and digital projects.
 
-First, run the development server:
+**Live Website:**  
+https://haickal-portfolio.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Indonesia
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Website ini adalah portfolio pribadi yang dibuat untuk menampilkan profil profesional, pengalaman kerja, keahlian, kontak, dan project digital.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Website ini mendukung dua bahasa:
 
-## Learn More
+- Bahasa Indonesia
+- English
 
-To learn more about Next.js, take a look at the following resources:
+Portfolio ini dapat digunakan sebagai pendukung saat melamar pekerjaan, baik untuk bidang pengembangan web maupun bidang profesional lainnya seperti administrasi, pelayanan konsumen, hospitality, dan dukungan operasional.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## English
 
-## Deploy on Vercel
+This is a personal portfolio website created to present professional profile, work experience, skills, contact information, and digital projects.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website supports two languages:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Indonesian
+- English
+
+This portfolio can be used to support job applications in web development as well as other professional fields such as administration, consumer service, hospitality, and operational support.
+
+---
+
+## Main Features
+
+- Bilingual content: Indonesian and English
+- Responsive layout
+- Professional profile section
+- Contact buttons for WhatsApp, Email, GitHub, and LinkedIn
+- Work experience section
+- Skills section
+- Digital project showcase
+- Live demo link for the Perantara project
+
+---
+
+## Tech Stack
+
+This website was built using:
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React Icons
+- Git
+- GitHub
+- Vercel
+
+---
+
+## Featured Project
+
+### Perantara
+
+**Perantara** is a demo project and case study for a web-based asset platform.
+
+The project was built using:
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Supabase
+- PostgreSQL
+- Vercel
+
+**Live Demo:**  
+https://perantara.vercel.app
+
+The source code for Perantara is private because the project has potential to be developed into a product or business in the future.
+
+---
+
+## Professional Experience Highlight
+
+This portfolio includes professional experience in:
+
+- Administration
+- Consumer service
+- Hospitality
+- Client communication
+- Document handling
+- Operational support
+- Web development learning projects
+
+Work experience shown in the portfolio includes:
+
+- Lembaga Perlindungan Konsumen - Republik Indonesia
+- Grand Hyatt Jakarta
+- Alila SCBD Jakarta
+
+---
+
+## Contact
+
+**Name:** Haickal Hidayat Albarkah  
+**Email:** haickalhdyt123@gmail.com  
+**GitHub:** https://github.com/haickalhdyt  
+**LinkedIn:** https://www.linkedin.com/in/haickal-hidayat-albarkah-07403440a  
+**Portfolio:** https://haickal-portfolio.vercel.app
+
+---
+
+## Status
+
+This portfolio is currently online and can be updated in the future with additional projects, new skills, and updated professional experience.
