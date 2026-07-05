@@ -21,13 +21,25 @@ const technicalSkills = [
   "Vercel",
 ];
 
-const projectTech = [
+const perantaraTech = [
   "Next.js",
   "TypeScript",
   "Tailwind CSS",
   "Supabase",
   "PostgreSQL",
   "Vercel",
+];
+
+const liveBantuTech = [
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Supabase Auth",
+  "Supabase Database",
+  "Supabase Storage",
+  "PostgreSQL",
+  "Vercel",
+  "GitHub",
 ];
 
 const whatsappLink = "https://wa.me/6281779487346";
@@ -41,6 +53,8 @@ const githubLink = "https://github.com/haickalhdyt";
 const linkedinLink =
   "https://www.linkedin.com/in/haickal-hidayat-albarkah-07403440a/";
 const perantaraLink = "https://perantara.vercel.app";
+const liveBantuDemoLink = "https://livebantu.vercel.app";
+const liveBantuSourceLink = "https://github.com/livebantu/livebantu";
 
 const content = {
   id: {
@@ -72,10 +86,12 @@ const content = {
       "Teliti",
     ],
 
-    projectTitle: "Proyek 1",
+    projectsTitle: "Proyek",
+    perantaraProjectTitle: "Proyek 1",
     projectName: "Perantara",
     projectSubtitle: "Studi Kasus Platform Aset Berbasis Web",
     liveDemo: "Demo Langsung",
+    sourceCode: "Kode Sumber",
     privateSource: "Kode Sumber Privat",
     projectDescriptionOne:
       "Perantara adalah proyek demo dan studi kasus platform aset berbasis web yang saya bangun menggunakan Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, dan Vercel. Proyek ini dibuat untuk mempelajari proses pengembangan aplikasi web modern, mulai dari tampilan antarmuka, autentikasi, database, pengelolaan data, unggah media, hingga publikasi online.",
@@ -90,6 +106,22 @@ const content = {
     deploymentTitle: "Publikasi Online",
     deploymentText:
       "Melakukan publikasi project ke Vercel dan mengelola kode menggunakan GitHub.",
+    liveBantuProjectTitle: "Proyek 2",
+    liveBantuName: "LiveBantu",
+    liveBantuSubtitle: "MVP Interaksi Live Berbasis QR",
+    liveBantuDescriptionOne:
+      "LiveBantu adalah MVP/demo portfolio aplikasi interaksi live berbasis QR untuk membantu host membuat room live, membagikan link penonton, menerima polling, Q&A, request, giveaway, dan menampilkan overlay sederhana.",
+    liveBantuDescriptionTwo:
+      "Project ini dibuat sebagai portfolio full-stack menggunakan Next.js dan Supabase, dengan fitur auth, dashboard host, halaman publik penonton, overlay browser source, status room, dan simulasi billing manual.",
+    liveBantuHostTitle: "Host & Room",
+    liveBantuHostText:
+      "Login dan register host, dashboard room milik user, buat room live, serta status room live, ended, archived, dan deleted.",
+    liveBantuAudienceTitle: "Interaksi Penonton",
+    liveBantuAudienceText:
+      "Link penonton publik, QR audience, polling dan voting, Q&A, request, serta giveaway.",
+    liveBantuOverlayTitle: "Overlay & Billing",
+    liveBantuOverlayText:
+      "Overlay browser source dan billing manual dengan upload bukti pembayaran.",
 
     experienceTitle: "Pengalaman Profesional",
     lpkRole: "Anggota / Dukungan Administrasi • 2023 - 2026",
@@ -147,10 +179,12 @@ const content = {
       "Attention to Detail",
     ],
 
-    projectTitle: "Project 1",
+    projectsTitle: "Projects",
+    perantaraProjectTitle: "Project 1",
     projectName: "Perantara",
     projectSubtitle: "Web-Based Asset Platform Case Study",
     liveDemo: "Live Demo",
+    sourceCode: "Source Code",
     privateSource: "Private Source Code",
     projectDescriptionOne:
       "Perantara is a demo project and case study for a web-based asset platform that I built using Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, and Vercel. This project was created to learn the modern web application development process, including user interface design, authentication, database management, data handling, media upload, and online deployment.",
@@ -165,6 +199,22 @@ const content = {
     deploymentTitle: "Deployment",
     deploymentText:
       "Deployed the project to Vercel and managed the code using GitHub.",
+    liveBantuProjectTitle: "Project 2",
+    liveBantuName: "LiveBantu",
+    liveBantuSubtitle: "QR-Based Live Interaction MVP",
+    liveBantuDescriptionOne:
+      "LiveBantu is an MVP/demo portfolio for a QR-based live interaction app that helps hosts create live rooms, share audience links, receive polling, Q&A, requests, giveaways, and display a simple overlay.",
+    liveBantuDescriptionTwo:
+      "This project was built as a full-stack portfolio project using Next.js and Supabase, with auth, a host dashboard, public audience pages, browser-source overlay, room statuses, and manual billing simulation.",
+    liveBantuHostTitle: "Host & Room",
+    liveBantuHostText:
+      "Host login and registration, user-owned room dashboard, live room creation, and room statuses for live, ended, archived, and deleted.",
+    liveBantuAudienceTitle: "Audience Interaction",
+    liveBantuAudienceText:
+      "Public audience links, audience QR, polling and voting, Q&A, requests, and giveaways.",
+    liveBantuOverlayTitle: "Overlay & Billing",
+    liveBantuOverlayText:
+      "Browser-source overlay and manual billing with payment proof upload.",
 
     experienceTitle: "Professional Experience",
     lpkRole: "Member / Administrative Support • 2023 - 2026",
@@ -446,11 +496,14 @@ export default function Home() {
         className="border-t border-white/10 bg-slate-900/60 px-6 py-20 backdrop-blur"
       >
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold md:text-4xl">{t.projectTitle}</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">{t.projectsTitle}</h2>
 
-          <div className="mt-10 rounded-3xl border border-white/10 bg-slate-950/80 p-8 shadow-2xl shadow-cyan-950/20">
+          <div className="mt-10 rounded-3xl border border-white/10 bg-slate-950/80 p-6 shadow-2xl shadow-cyan-950/20 md:p-8">
             <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-start">
               <div>
+                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-cyan-400">
+                  {t.perantaraProjectTitle}
+                </p>
                 <h3 className="text-2xl font-bold">{t.projectName}</h3>
                 <p className="mt-2 text-slate-400">{t.projectSubtitle}</p>
               </div>
@@ -503,10 +556,90 @@ export default function Home() {
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3">
-              {projectTech.map((tech) => (
+              {perantaraTech.map((tech) => (
                 <span
                   key={tech}
                   className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-100"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8 rounded-3xl border border-fuchsia-400/20 bg-slate-950/80 p-6 shadow-2xl shadow-fuchsia-950/20 md:p-8">
+            <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-start">
+              <div>
+                <p className="mb-3 bg-gradient-to-r from-pink-300 via-violet-300 to-sky-300 bg-clip-text text-sm font-semibold uppercase tracking-[0.25em] text-transparent">
+                  {t.liveBantuProjectTitle}
+                </p>
+                <h3 className="text-2xl font-bold">{t.liveBantuName}</h3>
+                <p className="mt-2 text-slate-400">{t.liveBantuSubtitle}</p>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={liveBantuDemoLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full bg-gradient-to-r from-pink-300 via-violet-300 to-sky-300 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-fuchsia-500/20 transition hover:brightness-110"
+                >
+                  {t.liveDemo}
+                </a>
+
+                <a
+                  href={liveBantuSourceLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-violet-400/30 px-5 py-2 text-sm font-semibold text-slate-300 transition hover:border-sky-300/60 hover:bg-violet-400/10 hover:text-sky-100"
+                >
+                  {t.sourceCode}
+                </a>
+              </div>
+            </div>
+
+            <p className="mt-6 leading-8 text-slate-300">
+              {t.liveBantuDescriptionOne}
+            </p>
+
+            <p className="mt-4 leading-8 text-slate-300">
+              {t.liveBantuDescriptionTwo}
+            </p>
+
+            <div className="mt-6 grid gap-4 md:grid-cols-3">
+              <div className="rounded-2xl border border-pink-400/15 bg-pink-400/[0.05] p-5">
+                <p className="font-semibold text-pink-100">
+                  {t.liveBantuHostTitle}
+                </p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">
+                  {t.liveBantuHostText}
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-violet-400/15 bg-violet-400/[0.05] p-5">
+                <p className="font-semibold text-violet-100">
+                  {t.liveBantuAudienceTitle}
+                </p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">
+                  {t.liveBantuAudienceText}
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-sky-400/15 bg-sky-400/[0.05] p-5">
+                <p className="font-semibold text-sky-100">
+                  {t.liveBantuOverlayTitle}
+                </p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">
+                  {t.liveBantuOverlayText}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              {liveBantuTech.map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full border border-violet-400/20 bg-gradient-to-r from-pink-500/10 via-violet-500/10 to-sky-500/10 px-4 py-2 text-sm text-violet-100"
                 >
                   {tech}
                 </span>
