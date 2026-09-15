@@ -14,6 +14,7 @@ const technicalSkills = [
   "React",
   "Next.js",
   "Tailwind CSS",
+  "Responsive Web Design",
   "Supabase",
   "PostgreSQL",
   "Git",
@@ -27,6 +28,7 @@ const perantaraTech = [
   "Tailwind CSS",
   "Supabase",
   "PostgreSQL",
+  "GitHub",
   "Vercel",
 ];
 
@@ -53,59 +55,74 @@ const githubLink = "https://github.com/haickalhdyt";
 const linkedinLink =
   "https://www.linkedin.com/in/haickal-hidayat-albarkah-07403440a/";
 const perantaraLink = "https://perantara.vercel.app";
+const perantaraGithubLink = "https://github.com/perantaraid/perantara";
 const liveBantuDemoLink = "https://livebantu.vercel.app";
 const liveBantuSourceLink = "https://github.com/livebantu/livebantu";
 
 const content = {
   id: {
-    heroBadge: "Portofolio Pribadi",
-    heroRole: "Profil Profesional | Pengembangan Web & Kesiapan Kerja",
-    heroDescription:
-      "Saya memiliki pengalaman kerja di bidang administrasi, pelayanan konsumen, dan hospitality, serta terus mengembangkan kemampuan di bidang pengembangan web melalui proyek nyata. Saya terbiasa bekerja secara disiplin, komunikatif, teliti, mampu bekerja dalam tim, dan cepat beradaptasi dengan lingkungan kerja baru.",
+    heroBadge: "Portofolio Profesional",
+
+heroRole:
+  "Junior Web Developer | Administrative Support | Customer Service & Hospitality",
+
+heroDescription:
+  "Saya memiliki pengalaman profesional di bidang administrasi, pelayanan konsumen, dan hospitality, serta mengembangkan kemampuan web development melalui proyek nyata. Saya membangun proyek menggunakan Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, dan Vercel, serta terbiasa bekerja secara teliti, komunikatif, adaptif, dan mendukung kebutuhan operasional.",
     seeProject: "Lihat Proyek",
     contactMe: "Hubungi Saya",
     location: "Jakarta Selatan, Indonesia",
 
     aboutTitle: "Tentang Saya",
-    aboutOne:
-      "Saya adalah pribadi yang memiliki pengalaman kerja profesional di bidang administrasi, pelayanan konsumen, dan hospitality. Dari pengalaman tersebut, saya terbiasa menjaga kualitas pelayanan, mengelola pekerjaan secara rapi, berkomunikasi dengan baik, dan menyelesaikan pekerjaan secara teliti.",
-    aboutTwo:
-      "Selain pengalaman kerja, saya juga aktif mengembangkan kemampuan di bidang teknologi, khususnya pengembangan web. Saya membangun proyek digital sebagai bentuk pembelajaran, portofolio, dan bukti bahwa saya memiliki kemauan belajar serta kemampuan berkembang di bidang baru.",
+aboutOne:
+  "Saya memiliki pengalaman profesional di bidang administrasi, pelayanan konsumen, dan hospitality. Saya terbiasa mengelola dokumen, melakukan data entry, berkomunikasi dengan klien dan konsumen, mendukung operasional, bekerja dalam tim, serta menjaga ketelitian dalam menyelesaikan pekerjaan.",
+
+aboutTwo:
+  "Selain pengalaman kerja tersebut, saya sedang mengembangkan kemampuan di bidang web development melalui proyek nyata. Saya membangun proyek menggunakan Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, dan Vercel sebagai bagian dari pengembangan kemampuan teknis dan portofolio.",
 
     skillsTitle: "Keahlian",
     technicalSkillsTitle: "Keahlian Teknis",
     professionalSkillsTitle: "Keahlian Profesional",
     professionalSkills: [
-      "Administrasi",
-      "Komunikasi",
-      "Pelayanan Konsumen",
-      "Kerja Sama Tim",
-      "Pemecahan Masalah",
-      "Disiplin",
-      "Cepat Beradaptasi",
-      "Teliti",
-    ],
+  "Administrative Support",
+  "Data Entry",
+  "Document Management",
+  "Microsoft Office",
+  "Microsoft Excel",
+  "Computer Operation",
+  "Customer Service",
+  "Hospitality",
+  "Communication",
+  "Teamwork",
+  "Problem Solving",
+  "Organizational Skills",
+  "Attention to Detail",
+],
 
     projectsTitle: "Proyek",
     perantaraProjectTitle: "Proyek 1",
-    projectName: "Perantara",
-    projectSubtitle: "Studi Kasus Platform Aset Berbasis Web",
-    liveDemo: "Demo Langsung",
-    sourceCode: "Kode Sumber",
-    privateSource: "Kode Sumber Privat",
-    projectDescriptionOne:
-      "Perantara adalah proyek demo dan studi kasus platform aset berbasis web yang saya bangun menggunakan Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, dan Vercel. Proyek ini dibuat untuk mempelajari proses pengembangan aplikasi web modern, mulai dari tampilan antarmuka, autentikasi, database, pengelolaan data, unggah media, hingga publikasi online.",
-    projectDescriptionTwo:
-      "Untuk saat ini, Perantara digunakan sebagai portofolio dan studi kasus, bukan sebagai produk final. Kode sumber tidak dibuka publik karena proyek ini memiliki potensi untuk dikembangkan menjadi produk atau bisnis di masa depan, namun demo aplikasi tersedia secara publik.",
-    frontendTitle: "Antarmuka",
-    frontendText:
-      "Membuat layout aplikasi, halaman aset, tampilan responsif, dan komponen antarmuka pengguna.",
-    backendTitle: "Integrasi Backend",
-    backendText:
-      "Mengintegrasikan Supabase, autentikasi, database, dan pengelolaan data.",
-    deploymentTitle: "Publikasi Online",
-    deploymentText:
-      "Melakukan publikasi project ke Vercel dan mengelola kode menggunakan GitHub.",
+projectName: "Perantara",
+projectSubtitle: "Studi Kasus Platform Aset Berbasis Web",
+liveDemo: "Demo Langsung",
+sourceCode: "GitHub",
+
+projectDescriptionOne:
+  "Perantara adalah studi kasus platform aset berbasis web yang saya kembangkan untuk membangun dan menunjukkan kemampuan dalam pengembangan aplikasi web modern. Proyek ini mencakup pengembangan antarmuka pengguna, autentikasi, integrasi database, manajemen aset, upload media, dan deployment online.",
+
+projectDescriptionTwo:
+  "Proyek ini dikembangkan sebagai portfolio dan studi kasus untuk menunjukkan proses pengembangan aplikasi dari sisi frontend hingga integrasi backend menggunakan Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, dan Vercel.",
+
+frontendTitle: "Antarmuka & Responsive UI",
+frontendText:
+  "Mengembangkan halaman dan komponen antarmuka yang responsif untuk mendukung pengalaman pengguna pada platform aset berbasis web.",
+
+backendTitle: "Database & Authentication",
+backendText:
+  "Mengintegrasikan autentikasi, database, pengelolaan data, serta layanan Supabase dan PostgreSQL.",
+
+deploymentTitle: "Asset & Media Management",
+deploymentText:
+  "Mengembangkan alur pengelolaan aset, upload media atau dokumen, serta menyiapkan project untuk deployment online.",
+
     liveBantuProjectTitle: "Proyek 2",
     liveBantuName: "LiveBantu",
     liveBantuSubtitle: "MVP Interaksi Live Berbasis QR",
@@ -123,16 +140,30 @@ const content = {
     liveBantuOverlayText:
       "Overlay browser source dan billing manual dengan upload bukti pembayaran.",
 
-    experienceTitle: "Pengalaman Profesional",
-    lpkRole: "Anggota / Dukungan Administrasi • 2023 - 2026",
-    lpkText:
-      "Mendukung kegiatan administrasi, pengelolaan dokumen, pendataan berkas, serta membantu proses pelayanan dan komunikasi dengan klien atau konsumen yang membutuhkan pendampingan terkait permasalahan hukum dan perlindungan konsumen.",
-    grandHyattRole: "Banquet Service Staff / Daily Worker • 2019 - 2023",
-    grandHyattText:
-      "Memberikan layanan kepada tamu pada acara skala besar dan VIP, menjaga standar pelayanan hotel bintang lima, serta bekerja sama dalam tim untuk memastikan acara berjalan lancar.",
-    alilaRole: "Banquet Service Staff / Daily Worker • 2021 - 2022",
-    alilaText:
-      "Memberikan pelayanan kepada tamu sesuai standar hotel mewah, membantu persiapan acara, serta mengembangkan kemampuan komunikasi, kerja sama tim, dan adaptasi di lingkungan kerja formal.",
+        experienceTitle: "Pengalaman Kerja",
+
+lpkRole: "1. Part-time F&B Staff",
+lpkCompany:
+  "PT. Avisha Citra Mandiri (Penempatan: Grand Hyatt Jakarta & Hotel Bintang 5) • 2021 - 2023",
+lpkText:
+  "Memberikan pelayanan operasional makanan dan minuman untuk acara skala besar (MICE), perjamuan formal, dan tamu VIP sesuai standar hotel mewah.",
+
+grandHyattRole: "2. Guest Service Associate (GSA) — Contract",
+grandHyattCompany:
+  "Timezone Margo City — Depok, Indonesia • 2022 - 2023 (Kontrak 6 Bulan)",
+grandHyattText:
+  "Meningkatkan kepuasan pelanggan dengan memberikan pelayanan informasi, penanganan keluhan secara solutif, serta memandu pengunjung di area wahana rekreasi. Mengelola transaksi kasir harian dan melakukan entri data laporan penjualan kartu bermain secara teliti dan tepat waktu.",
+
+alilaRole: "3. Bendahara / Administrative Support (Freelance / On-Call)",
+alilaCompany:
+  "Lembaga Perlindungan Konsumen Republik Indonesia (LPK-RI) • 2023 - Sekarang (Masa Bakti KTA aktif s.d. 2030)",
+alilaText:
+  "Mengelola administrasi keuangan internal dan pencatatan kas organisasi secara fleksibel berdasarkan panggilan kebutuhan operasional lembaga. Mendukung manajemen dokumen hukum dan pendataan berkas pengaduan konsumen secara sistematis. Melakukan komunikasi langsung dengan konsumen terkait hak-hak serta administrasi legal perlindungan konsumen.",
+
+devRole: "4. Junior Web Developer (Personal Projects)",
+devCompany: "Jakarta, Indonesia • 2024 - Sekarang",
+devText:
+  "Mengembangkan proyek portofolio aplikasi web full-stack responsif menggunakan Next.js, TypeScript, Tailwind CSS, dan Supabase. Mengintegrasikan arsitektur database PostgreSQL, alur autentikasi pengguna, manajemen storage media, serta deployment online melalui Vercel.",
 
     contactTitle: "Mari Terhubung",
     contactText:
@@ -140,7 +171,6 @@ const content = {
     emailMe: "Email Saya",
     githubButton: "GitHub",
     linkedinButton: "LinkedIn",
-    demoPerantara: "Demo Perantara",
 
     whatsappLabel: "WhatsApp",
     emailLabel: "Email",
@@ -151,54 +181,68 @@ const content = {
   },
 
   en: {
-    heroBadge: "Personal Portfolio",
-    heroRole: "Professional Profile | Web Development & Career Readiness",
-    heroDescription:
-      "I have professional experience in administration, consumer service, and hospitality, while continuing to develop my skills in web development through real projects. I am disciplined, communicative, detail-oriented, able to work in a team, and quick to adapt to new work environments.",
+    heroBadge: "Professional Portfolio",
+
+heroRole:
+  "Junior Web Developer | Administrative Support | Customer Service & Hospitality",
+
+heroDescription:
+  "I have professional experience in administration, consumer service, and hospitality, while developing my web development skills through real projects. I build projects using Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, and Vercel, and I am accustomed to working with accuracy, communication, adaptability, and operational support.",
     seeProject: "View Project",
     contactMe: "Contact Me",
     location: "South Jakarta, Indonesia",
 
     aboutTitle: "About Me",
-    aboutOne:
-      "I have professional work experience in administration, consumer service, and hospitality. Through these experiences, I became accustomed to maintaining service quality, managing tasks in an organized way, communicating professionally, and completing work carefully.",
-    aboutTwo:
-      "In addition to my work experience, I am also actively developing my skills in technology, especially web development. I build digital projects as part of my learning process, portfolio, and proof of my willingness to grow in a new field.",
+aboutOne:
+  "I have professional experience in administration, consumer service, and hospitality. I am accustomed to managing documents, performing data entry, communicating with clients and consumers, supporting operations, working as part of a team, and maintaining accuracy in my work.",
+
+aboutTwo:
+  "Alongside my professional experience, I am developing my web development skills through real projects. I build projects using Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, and Vercel as part of my technical development and portfolio.",
 
     skillsTitle: "Skills",
     technicalSkillsTitle: "Technical Skills",
     professionalSkillsTitle: "Professional Skills",
     professionalSkills: [
-      "Administration",
-      "Communication",
-      "Consumer Service",
-      "Teamwork",
-      "Problem Solving",
-      "Discipline",
-      "Fast Adaptation",
-      "Attention to Detail",
-    ],
+  "Administrative Support",
+  "Data Entry",
+  "Document Management",
+  "Microsoft Office",
+  "Microsoft Excel",
+  "Computer Operation",
+  "Customer Service",
+  "Hospitality",
+  "Communication",
+  "Teamwork",
+  "Problem Solving",
+  "Organizational Skills",
+  "Attention to Detail",
+],
 
     projectsTitle: "Projects",
     perantaraProjectTitle: "Project 1",
-    projectName: "Perantara",
-    projectSubtitle: "Web-Based Asset Platform Case Study",
-    liveDemo: "Live Demo",
-    sourceCode: "Source Code",
-    privateSource: "Private Source Code",
-    projectDescriptionOne:
-      "Perantara is a demo project and case study for a web-based asset platform that I built using Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, and Vercel. This project was created to learn the modern web application development process, including user interface design, authentication, database management, data handling, media upload, and online deployment.",
-    projectDescriptionTwo:
-      "At this stage, Perantara is used as a portfolio and case study, not as a final product. The source code is not publicly available because this project has the potential to be developed into a product or business in the future, but the application demo is publicly accessible.",
-    frontendTitle: "Frontend",
-    frontendText:
-      "Built application layouts, asset pages, responsive interfaces, and user interface components.",
-    backendTitle: "Backend Integration",
-    backendText:
-      "Integrated Supabase, authentication, database, and data management.",
-    deploymentTitle: "Deployment",
-    deploymentText:
-      "Deployed the project to Vercel and managed the code using GitHub.",
+projectName: "Perantara",
+projectSubtitle: "Web-Based Asset Platform Case Study",
+liveDemo: "Live Demo",
+sourceCode: "GitHub",
+
+projectDescriptionOne:
+  "Perantara is a web-based asset platform case study developed to demonstrate my skills in modern web application development. The project covers user interface development, authentication, database integration, asset management, media upload, and online deployment.",
+
+projectDescriptionTwo:
+  "The project was developed as a portfolio and case study to demonstrate the development process from frontend implementation to backend integration using Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, GitHub, and Vercel.",
+
+frontendTitle: "Interface & Responsive UI",
+frontendText:
+  "Developed responsive pages and interface components to support the user experience of a web-based asset platform.",
+
+backendTitle: "Database & Authentication",
+backendText:
+  "Integrated authentication, database services, data management, Supabase, and PostgreSQL.",
+
+deploymentTitle: "Asset & Media Management",
+deploymentText:
+  "Implemented asset management flows, media or document uploads, and prepared the project for online deployment.",
+
     liveBantuProjectTitle: "Project 2",
     liveBantuName: "LiveBantu",
     liveBantuSubtitle: "QR-Based Live Interaction MVP",
@@ -216,24 +260,37 @@ const content = {
     liveBantuOverlayText:
       "Browser-source overlay and manual billing with payment proof upload.",
 
-    experienceTitle: "Professional Experience",
-    lpkRole: "Member / Administrative Support • 2023 - 2026",
-    lpkText:
-      "Supported administrative activities, document management, case file recording, and assisted with client or consumer communication for individuals seeking support related to legal and consumer protection matters.",
-    grandHyattRole: "Banquet Service Staff / Daily Worker • 2019 - 2023",
-    grandHyattText:
-      "Provided service for large-scale and VIP events, maintained five-star hotel service standards, and worked with a team to ensure events ran smoothly.",
-    alilaRole: "Banquet Service Staff / Daily Worker • 2021 - 2022",
-    alilaText:
-      "Provided guest service according to luxury hotel standards, assisted with event preparation, and developed communication, teamwork, and adaptability in a professional work environment.",
+        experienceTitle: "Work Experience",
 
+lpkRole: "1. Part-time F&B Staff",
+lpkCompany:
+  "PT. Avisha Citra Mandiri (Placement: Grand Hyatt Jakarta & 5-Star Hotels) • 2021 - 2023",
+lpkText:
+  "Provided food and beverage operational services for large-scale events (MICE), formal banquets, and VIP guests in accordance with luxury hotel standards.",
+
+grandHyattRole: "2. Guest Service Associate (GSA) — Contract",
+grandHyattCompany:
+  "Timezone Margo City — Depok, Indonesia • 2022 - 2023 (6-Month Contract)",
+grandHyattText:
+  "Improved customer satisfaction by providing information services, handling complaints effectively, and assisting visitors throughout the recreation area. Managed daily cashier transactions and maintained accurate and timely sales data entry for game cards.",
+
+alilaRole: "3. Treasurer / Administrative Support (Freelance / On-Call)",
+alilaCompany:
+  "Indonesian Consumer Protection Agency (LPK-RI) • 2023 - Present (Active Membership ID until 2030)",
+alilaText:
+  "Managed internal financial administration and organizational cash records based on operational needs. Supported legal document management and consumer complaint records in a systematic manner. Communicated directly with consumers regarding consumer rights and legal protection administration.",
+
+devRole: "4. Junior Web Developer (Personal Projects)",
+devCompany: "Jakarta, Indonesia • 2024 - Present",
+devText:
+  "Developed responsive full-stack web portfolio projects using Next.js, TypeScript, Tailwind CSS, and Supabase. Integrated PostgreSQL database architecture, user authentication flows, media storage management, and online deployment through Vercel.",
+  
     contactTitle: "Let’s Connect",
     contactText:
       "I am open to job opportunities in web development, administration, consumer service, hospitality, operational support, or other professional roles that match my experience and abilities.",
     emailMe: "Email Me",
     githubButton: "GitHub",
     linkedinButton: "LinkedIn",
-    demoPerantara: "Perantara Demo",
 
     whatsappLabel: "WhatsApp",
     emailLabel: "Email",
@@ -509,19 +566,24 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                <a
-                  href={perantaraLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
-                >
-                  {t.liveDemo}
-                </a>
+  <a
+    href={perantaraLink}
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
+  >
+    {t.liveDemo}
+  </a>
 
-                <span className="rounded-full border border-slate-700 px-5 py-2 text-sm font-semibold text-slate-400">
-                  {t.privateSource}
-                </span>
-              </div>
+  <a
+    href={perantaraGithubLink}
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-full border border-slate-700 px-5 py-2 text-sm font-semibold text-slate-300 transition hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-300"
+  >
+    GitHub
+  </a>
+</div>
             </div>
 
             <p className="mt-6 leading-8 text-slate-300">
@@ -650,36 +712,62 @@ export default function Home() {
       </section>
 
       <section className="px-6 py-20">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            {t.experienceTitle}
-          </h2>
+  <div className="mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold md:text-4xl">
+      {t.experienceTitle}
+    </h2>
 
-          <div className="mt-10 grid gap-6">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
-              <h3 className="text-xl font-bold">
-                Lembaga Perlindungan Konsumen - Republik Indonesia
-              </h3>
-              <p className="mt-1 text-slate-400">{t.lpkRole}</p>
-              <p className="mt-4 leading-8 text-slate-300">{t.lpkText}</p>
-            </div>
+    <div className="mt-10 grid gap-6">
+      <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
+        <h3 className="text-xl font-bold">
+          {t.lpkRole}
+        </h3>
+        <p className="mt-1 text-slate-400">
+          {t.lpkCompany}
+        </p>
+        <p className="mt-4 leading-8 text-slate-300">
+          {t.lpkText}
+        </p>
+      </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
-              <h3 className="text-xl font-bold">Grand Hyatt Jakarta</h3>
-              <p className="mt-1 text-slate-400">{t.grandHyattRole}</p>
-              <p className="mt-4 leading-8 text-slate-300">
-                {t.grandHyattText}
-              </p>
-            </div>
+      <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
+        <h3 className="text-xl font-bold">
+          {t.grandHyattRole}
+        </h3>
+        <p className="mt-1 text-slate-400">
+          {t.grandHyattCompany}
+        </p>
+        <p className="mt-4 leading-8 text-slate-300">
+          {t.grandHyattText}
+        </p>
+      </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
-              <h3 className="text-xl font-bold">Alila SCBD Jakarta</h3>
-              <p className="mt-1 text-slate-400">{t.alilaRole}</p>
-              <p className="mt-4 leading-8 text-slate-300">{t.alilaText}</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
+        <h3 className="text-xl font-bold">
+          {t.alilaRole}
+        </h3>
+        <p className="mt-1 text-slate-400">
+          {t.alilaCompany}
+        </p>
+        <p className="mt-4 leading-8 text-slate-300">
+          {t.alilaText}
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur">
+        <h3 className="text-xl font-bold">
+          {t.devRole}
+        </h3>
+        <p className="mt-1 text-slate-400">
+          {t.devCompany}
+        </p>
+        <p className="mt-4 leading-8 text-slate-300">
+          {t.devText}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="border-t border-white/10 bg-slate-900/60 px-6 py-20 backdrop-blur">
         <div className="mx-auto max-w-6xl text-center">
@@ -730,14 +818,6 @@ export default function Home() {
               {t.linkedinButton}
             </a>
 
-            <a
-              href={perantaraLink}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full border border-slate-600 bg-white/5 px-6 py-3 font-semibold text-white transition hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-cyan-300"
-            >
-              {t.demoPerantara}
-            </a>
           </div>
         </div>
       </section>
